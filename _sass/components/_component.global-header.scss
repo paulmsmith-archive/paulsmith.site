@@ -1,0 +1,45 @@
+.l-doc {
+	height: 100%;
+}
+
+.l-doc__header {
+	@include aspect-ratio($content-selector: '.l-doc__header__content');
+	&__content {
+		background: url(/assets/images/head_bg.jpg) no-repeat 0 bottom;
+		background-size: cover;
+	}
+}
+
+
+.c-global-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: $base-spacing-unit;
+	border-bottom: 1px solid #ccc;
+}
+
+.c-global-brand {
+	&__text {
+		margin: 0;
+	}
+}
+
+.c-global-navigation {
+	
+	@include mq($from: medium) {
+		width: 50%;
+	}
+	
+	&__list {
+		list-style-type: none;
+		display: flex;
+		justify-content: flex-start;
+		margin: 0;
+	}
+	
+	&__item {
+		padding: 10px;
+	}
+	
+}

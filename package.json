@@ -1,0 +1,15 @@
+{
+  "name": "paulsmith.site",
+  "version": "1.0.0",
+  "description": "paulsmith.site blog",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Michael Smith <mail@airfont.co.uk> (http://airfront.co.uk)",
+  "license": "ISC",
+  "dependencies": {
+    "sanitize.css": "^4.1.0",
+    "sass-mq": "^3.3.2"
+  }
+}
